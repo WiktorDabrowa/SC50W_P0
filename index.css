@@ -1,34 +1,79 @@
 body {
   min-width:400px;
+  justify-items: center;
+  align-items: center;
 }
 .links {
   height: 20px;
   justify-content:right;
   display: flex;
-  background-color: red;
 }
 a {
   padding-left:20px;
-  padding-right:30px
+  padding-right:30px;
+  color:black;
+  font-style:none
 }
 .Logo {
   display:flex;
-  align-items: center;
+  align-items:flex-end;
   justify-content: center;
-  height:250px
+  height:180px;
+  padding-bottom:25px
 
 }
 
-.Input_wrapper {
-  display: flex;
-  justify-content: center;
+.interactive_panel {
+  display:flex;
+  justify-content:center
+}
+
+.icon {
+  align-self: center;
+  margin-left: 8px;
+  margin-right:10px;
 }
 
 .input_field {
-  min-width:400px;
-  width:auto
+  display: flex;
+  justify-content: center;
+  border:none;
+  flex:1;
+  outline: none;
+  height: 25px;
+}
+
+.input_wrapper {
+  justify-content: center;
+  display:flex;
+  max-width: 600px;
+  min-width:360px;
+  padding: 8px;
+  border-color: rgb(182, 182, 182);
+  border-style: solid;
+  border-radius:30px;
+  border-width: 1px;
+  margin-bottom: 20px;
+}
+.input_wrapper:hover{
+  box-shadow: 0px 0px 2px rgb(180, 180, 180)
+}
+.button_wrapper {
+  display: flex;
+  justify-content: center
 }
 
 .button {
-
+  align-self: center;
+  height:40px;
+  width:120px;
+  border:none;
+  margin:5px;
+  background-color: rgb(250, 250, 250);
+  border-radius: 5px
+}
+.button:hover{
+  cursor:pointer;
+  border: 1px solid rgb(212, 212, 212);
+  box-shadow:0px 0px 2px rgb(180, 180, 180) ;
 }
