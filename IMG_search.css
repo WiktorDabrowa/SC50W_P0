@@ -1,0 +1,80 @@
+body {
+  min-width:400px;
+  justify-items: center;
+  align-items: center;
+}
+.links {
+  height: 20px;
+  justify-content:right;
+  display: flex;
+}
+a {
+  padding-left:20px;
+  padding-right:30px;
+  color:black;
+  font-style:none
+}
+.logo_wrapper {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+.Logo {
+  display:flex;
+  align-items:flex-end;
+  justify-content: center;
+  height:180px;
+  padding-bottom:25px;
+  position: relative;
+  width:272px;
+}
+.images {
+  position:absolute;
+  left:220px;
+  bottom:25px;
+  color: #4285f4;
+font-size: 20px
+}
+
+.interactive_panel {
+  display:flex;
+  justify-content:center
+}
+
+.icon {
+  align-self: center;
+  margin-left: 8px;
+  margin-right:10px;
+}
+
+.input_field {
+  display: flex;
+  justify-content: center;
+  border:none;
+  flex:1;
+  outline: none;
+  height: 25px;
+}
+
+.input_wrapper {
+  justify-content: center;
+  display:flex;
+  max-width: 600px;
+  min-width:360px;
+  padding: 8px;
+  border-color: rgb(182, 182, 182);
+  border-style: solid;
+  border-radius:30px;
+  border-width: 1px;
+  margin-bottom: 20px;
+}
+.input_wrapper:hover{
+  box-shadow: 0px 0px 2px rgb(180, 180, 180)
+}
+.button {
+  border:none;
+  background-color: transparent;
+}
+.button:hover{
+  cursor:pointer;
+}
