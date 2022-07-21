@@ -20,7 +20,6 @@ a {
   justify-content: center;
   height:180px;
   padding-bottom:25px
-
 }
 
 .interactive_panel {
@@ -46,8 +45,7 @@ a {
 .input_wrapper {
   justify-content: center;
   display:flex;
-  max-width: 600px;
-  min-width:360px;
+  width:500px;
   padding: 8px;
   border-color: rgb(182, 182, 182);
   border-style: solid;
@@ -76,4 +74,10 @@ a {
   cursor:pointer;
   border: 1px solid rgb(212, 212, 212);
   box-shadow:0px 0px 2px rgb(180, 180, 180) ;
+}
+
+@media only screen and (max-width:715px){
+  .input_wrapper{
+    width:70vw;
+  }
 }
